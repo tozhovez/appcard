@@ -343,3 +343,31 @@ For example, you can use an aggregate function like COUNT() to count the total n
 SELECT COUNT(*) FROM your_table;
 This query will return a single row with the total count of rows in the table.
 Therefore, the correct answer is option 2.
+	
+## Appcard Inc Back-End Python Developer 
+*appointment 5*
+
+
+### A code year containing a stack with several different API interfaces. For example, there were three API interfaces in the existing code, each receiving output. In the new code, there is only one API and it receives a single output. The new code is intended to replace the functionality of the existing code, but the final result should remain the same.
+##### Question 1: Describe your approach to problem-solving. What steps should be taken to solve this problem?
+##### Question 2: How to verify that the new code is functioning correctly?
+
+
+### Answer to question 1:
+##### 1. Understand the functionality of each API: Examine the old code that uses the API and analyze its purpose and behavior. Understand the inputs required for each of them, the actions they perform, and the results they produce.
+##### 2. Identify common functions: Look for similarities and patterns in the old code. Identify the key functions that are essential for achieving the desired end result. This will help you determine what needs to be implemented in the new code.
+##### 3. Design the new code: Based on the common functions identified in step 2, design the new API. Define the input parameters it will receive and the output it will produce. Consider the necessary operations and algorithms to replicate the behavior of the original API stack.
+##### 4. Implement the new code: Write the code for the new API and ensure that it performs the required actions and produces the same results as the original API stack. Validate the correctness and accuracy of the new code.
+##### 5. Test the new code: Replace the old API stack with the new API in the code file. Run the code with different test scenarios and compare the output results of the new implementation with the previous implementation.
+
+
+### Answer to question 2:
+Here is the proposed approach:
+##### Test Creation: Before making changes to the code, I suggest writing tests that check the current output of your API set. This way, you can ensure that after the changes, the output remains the same.
+##### Output Comparison: Run the old API set and save its output. Then, run the new API set and compare its output to the previous result. If they are identical, it means the final output remained the same.
+##### Log Usage: I recommend enabling logs in the code before and after the changes in the API set. Record the execution results of both versions in log files. Afterward, you can compare the log files to verify that the final result hasn't changed.
+##### Comparison of Mean Results: If your API set returns mean results before the final output, it's important to ensure that they are preserved after the changes. You can compare the mean results of the old and new API sets to check their consistency.
+##### Manual Verification: Check the previous API's output manually and compare it to the output of the new API. Look for changes or discrepancies in the results to identify potential issues.
+
+
+
